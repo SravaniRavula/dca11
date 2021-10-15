@@ -1,0 +1,36 @@
+.breadcrumbslist {
+  display: flex;
+  background-color: #ebfaf6 !important;
+  color: rgb(36, 39, 35) !important;
+  margin-bottom: 0.5px !important;
+}
+
+.lists {
+  color: rgb(13, 82, 233) !important;
+  margin: 1px 0px !important;
+  text-transform: uppercase;
+  font-size-adjust: ex-height 0.58;
+  font-size: 14px;
+}
+
+.lists_space {
+  margin: 0px 3px;
+}
+.navlink-active:first-child {
+  display: none;
+}
+
+.navlink-active:nth-child(2) {
+  display: none;
+}
+
+.navlink-active:nth-child(3) {
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.navlink-active:last-child {
+  color: rgb(231, 18, 18) !important;
+  text-decoration: none;
+  pointer-events: none;
+}
